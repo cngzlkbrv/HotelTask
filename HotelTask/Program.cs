@@ -17,7 +17,7 @@
             }
             catch(NotAvailableException ex) 
             {
-                throw new NotAvailableException("Otaq doludur");
+                 Consol.WriteLine(NotAvailableException("Otaq doludur"));
             }
             catch(Exception ex)
             {
